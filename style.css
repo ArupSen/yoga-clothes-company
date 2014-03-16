@@ -36,9 +36,18 @@
   left: 345px;
   top: -134px;
 }
-#wrap > section.middle > p:nth-child(4) > span {
+span.small {
   font-size: 10px;
   white-space: nowrap;
+}
+#wrap > section.middle > form {
+  position: relative;
+  width: 140px;
+  top: -144px;
+  left: 342px;
+}
+input[type="image"] {
+  margin-left: 4px;
 }
 #wrap > section:nth-child(4) {
   margin: -120px 0 30px 0;
