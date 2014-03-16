@@ -19,6 +19,11 @@
 #wrap > img:nth-child(1) {
   margin: 0 0 10px 0;
 }
+#wrap > section.top > p:nth-child(3) {
+  position: relative;
+  left: 130px;
+  top: -50px;
+}
 #wrap > section.middle > img:nth-child(2) {
   height: 114px;
   position: relative;
