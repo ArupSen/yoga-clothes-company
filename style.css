@@ -67,5 +67,15 @@ input[type="image"] {
   width: 190px;
 }
 #wrap > section.bottom {
-top: -200px;
+  top: -200px;
+  width: 500px;
+}
+#wrap > section.bottom a {
+  background: url(FB-f-Logo__blue_29.png) no-repeat;
+padding-left: 34px;
+padding-bottom: 15px;
+padding-top: 14px;
+color: red;
+margin: -33px 0 0 199px;
+display: block;
 }
