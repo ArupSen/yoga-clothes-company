@@ -79,3 +79,14 @@ color: red;
 margin: -33px 0 0 199px;
 display: block;
 }
+#wrap > section.returns {
+  position: relative;
+  top: -180px;
+}
+#wrap > section.returns p {
+  display: none;
+}
+#wrap > section.returns > h3 {
+  font-weight: normal;
+  font-size: 13px;
+}
