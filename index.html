@@ -69,6 +69,20 @@
     <a href="https://www.facebook.com/Theyogaclothescompany" title="follow the yoga clothes company on facebook" target="_blank">Follow us on Facebook</a>
     </p>
   </section>
+  <section class="returns">
+    <h3>RETURNS POLICY (show)</h3>
+    <p>A full refund will be given for orders cancelled within 7 working days after purchase. In the case of goods that have been sent out the refund will be made in line with the terms and conditions below.
+It is the responsibility of the consumer to return items that they are not happy with at their own costs within 21 working days after the purchase date. A full refund will be given for items returned  in the condition that they were received in. The same terms apply for faulty goods.</p>
+</section>
 </div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(function() {
+    var $h3 = $('.returns h3');
+    $h3.on('click', function() {
+      $(this).next('p').slideToggle('slow', function(){$('.returns p').is(':hidden') ? $h3.text('RETURNS POLICY (show)') : $h3.text('RETURNS POLICY (hide)');});
+      });
+    });
+</script>
 </body>
 </html>
