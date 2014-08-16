@@ -13,7 +13,7 @@
   font-family: Georgia, serif;
 }
 /* grouped selectors */
-#wrap > section.top > p:nth-child(3), #wrap > section.middle > img:nth-child(2), #wrap > section.cardi > img:nth-child(2), #wrap > section.cardi > p,#wrap > section.cardi > form, #wrap > section.middle > form, #wrap > section.middle > p, #wrap > section.bottom {
+#wrap, #wrap > section.top > p:nth-child(3), #wrap > section.middle > img:nth-child(2), #wrap > section.cardi > img:nth-child(2), #wrap > section.cardi > p,#wrap > section.cardi > form, #wrap > section.middle > form, #wrap > section.middle > p, #wrap > section.bottom {
   position: relative;
 }
 #wrap > section.top > p:nth-child(2) {
@@ -72,12 +72,12 @@ input[type="image"] {
 }
 #wrap > section.bottom a {
   background: url(FB-f-Logo__blue_29.png) no-repeat;
-padding-left: 34px;
-padding-bottom: 15px;
-padding-top: 14px;
-color: red;
-margin: -33px 0 0 199px;
-display: block;
+  padding-left: 34px;
+  padding-bottom: 15px;
+  padding-top: 14px;
+  color: red;
+  margin: -33px 0 0 199px;
+  display: block;
 }
 #wrap > section.returns {
   position: relative;
@@ -89,4 +89,10 @@ display: block;
 #wrap > section.returns > h3 {
   font-weight: normal;
   font-size: 13px;
+  cursor: pointer;
+}
+img.show-banner {
+  position: absolute;
+  top: 80px;
+  right: -150px;
 }
