@@ -79,6 +79,15 @@ input[type="image"] {
   margin: -33px 0 0 199px;
   display: block;
 }
+#wrap > section.bottom a.twitter {
+  background: none;
+}
+a.twitter img {
+  width: 56px;
+  position: relative;
+  top: -40px;
+  left: 120px;
+}
 #wrap > section.returns {
   position: relative;
   top: -180px;
